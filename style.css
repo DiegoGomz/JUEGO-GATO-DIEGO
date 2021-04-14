@@ -1,0 +1,72 @@
+
+
+body, html{
+    height: 100%;
+}
+
+main{
+    height: 50%;
+    
+}
+
+.contenedor{
+   margin-top: 30px;
+   width: 80%;
+   height: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   display: grid;
+   border: 10px solid rgb(0, 0, 0);
+   justify-items: stretch;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   column-gap: 5px;
+   row-gap: 5px;
+   font-family: 'RocknRoll One', sans-serif;
+   margin-bottom: 30px;
+   
+   font-size: 5em;
+   
+   background-color: black;
+   
+}
+
+.cuadro {
+   background-color: #BCD8C1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+
+.juego{
+   font-size: 20px;
+   text-align: center;
+   font-family: 'RocknRoll One', sans-serif;
+}
+
+.hex1{
+   background-color: #222e50
+}
+
+.hex2{
+   background-color: #007991;
+}
+
+nav{
+   text-align: center;
+   font-family: 'RocknRoll One', sans-serif;
+   font-size: 100px;
+}
+
+button{
+   margin-left: 300px;
+   position: absolute;
+   top: 230px;
+   font-family: 'RocknRoll One', sans-serif;
+   background-color: gold;
+
+}
